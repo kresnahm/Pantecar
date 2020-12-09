@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fiksi - Filkom Skripsi</title>
+    <link rel="stylesheet" href="./css/data.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="styletest.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.sidebarBtn').click(function(){
+          $('.sidebar').toggleClass('active');
+          $('.sidebarBtn').toggleClass('toggle');
+          $('.main').toggleClass('active1');
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <nav>
+          <ul>
+            <!-- <li><a href="Home.html">Home</a></li> -->
+            <li><div class="dropdown">
+                <!-- GANTI TANDA TANYA DENGAN BRP BANYAK NOTIF YG ADA -->
+                <!-- KALO GAADA NOTIF COMMEND ATO APUS AJA CLASS BADGE -->
+                <a class="dropbtn">
+                <!-- <span class="badge">?</span> -->
+                <span>Inbox</span></a>
+                <div class="dropdown-content">
+                <a href="#">Notif 1</a>
+                <a href="#">Notif 2</a>
+                <a href="#">Notif 3</a>
+                </div>
+                </div>
+            </li>
+            <!-- <li><a href="Home.html">Inbox</a></li> -->
+            <li><div class="logout"><a href="index.html">Log Out</a></div></li>
+
+          </ul>
+        </nav>
+        <!-- <div class="Inbox">
+          <input type="submit" name="Inbox" value="Inbox">
+        </div> -->
+        <!-- <div class="logout">
+          <input type="submit" name="Logout" value="Log out">
+        </div> -->
+      </div>
+    </div>
+  <div class="sidebar">
+  <ul>
+      <div class="img">
+        <a href="home.html">
+        <img src="./img/logo.png" alt="Fiksi" width="60px" padding="30px">
+      </a>
+      </div>
+      <div class="bdrTop">
+      <li><a class="a" href="#">Isi sendiri</a></li>
+      </div>
+      <li><a class="a"href="#">Isi sendiri</a></li>
+      <li><a class="a"href="#">Isi sendiri</a></li>
+      <li><a class="a"href="#">Isi sendiri</a></li>
+      <li><a class="a"href="#">Isi sendiri</a></li>
+  </ul>
+    <button type="button" name="button" class="sidebarBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="main">
+    <div class="content">
+      <!-- ganti yang di dalam content html dan yang bertuliskan Isi sendiri aja -->
+      <!-- selain yang di dalam div content kalo gak paham gak usah di ganti -->
+      <h1 class="mt-4" align="center">Pengesahan Surat Tugas</h1>
+      <br><br>
+      <h3>Aji Firman Cahya Wardhana</h3>
+      <h3>185150201111064</h3>
+      <h3>Analisis Mobile Legend</h3>
+      <!-- <h3><a href="">Download File Proposal</a></h3> -->
+    <div class="isi">
+      <a class="button"align="center" href="./doc/dummy.pdf" download>
+        Download
+  </a><p></p><br>
+    </div>
+
+      <form>
+        <input class="button"type="button" value="Setuju" onclick="window.location.href='home2.html'">
+        <input class="button"type="button" name="" value="Tolak" style="margin-left:100px" onclick="window.location.href='home2.html'">
+        <br><br>
+        <!-- <input class="button"type="submit"> -->
+      </form>
+<!-- <button class="button"type="button" name="button" >Isi sendiri</button> -->
+
+</div>
+  </div>
+  </body>
+</html>

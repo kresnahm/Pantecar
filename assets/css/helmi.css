@@ -1,0 +1,112 @@
+
+.isi{
+  position: absolute;
+}
+.content{
+  padding-top: 140px;
+  max-width: 800px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iklan{
+  flex-basis: 25%;
+  padding: 1px;
+  min-width: 200px;
+  max-width: 200px;
+  margin-left: clamp(3px,auto,5px);
+  margin-right: clamp(3px,4px,5px);
+  margin-bottom: 25px;
+  border-style: 1px solid;
+  border-color:#bdc3c7;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px -3px;
+  margin-top: 300px;
+}
+.iklan img{
+  width: 100%;
+  border-radius: 6px 6px 0px 0px;
+}
+.iklan p{
+  color: #FA4D4D;
+  padding-left: 10px;
+}
+.iklan h4{
+  padding-left: 10px;
+  color: black;
+}
+
+.gambar_mobil{
+  position: absolute;
+}
+
+.gambar_mobil{
+  width: 320px;
+  height: 250px;
+}
+.gambar_mobil img{
+  width: 100%;
+}
+
+.ket_mobil{
+  position: absolute;
+  margin-bottom: 200px;
+  margin-left: 330px;
+}
+
+.ket_mobil button{
+  margin-top: 0px;
+  background-color: #4CAF50;
+  font-weight: bold;
+  color: white;
+  border: 2px solid #4CAF50;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.ket_mobil button:hover{
+  background-color: #7bed9f; /* Green */
+  border: 2px solid #7bed9f;
+  color: white;
+}
+
+.ket_mobil h3{
+  margin-top: 5px;
+}
+
+.ket_mobil h4{
+  height: 10px;
+}
+
+.ket_mobil h5{
+  margin-top: 15px;
+  height: 0px;
+}
+
+.ket_mobil h6{
+  margin-top: 5px;
+  height: 0px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.foto img{
+  max-width: 80px;
+  max-height: 100%;
+}
+
+.foto{
+  position: fixed;
+  margin-left: 550px;
+  margin-bottom: 300px;
+  max-width: 350px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile</title>
+  <link rel="stylesheet" href="./css/menu-button.css">
+  <link rel="stylesheet" href="./css/sidebar.css">
+  <link rel="stylesheet" href="./css/searchbar.css">
+  <link rel="stylesheet" href="./css/content.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+  <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/profile.css">
+</head>
+<body>
+  <div class="header" id="header">
+    <form class="search-bar" action="index.html" method="post">
+      <li><input class="search-bar" type="text" name="" placeholder="Type to search. . .">
+      </li>
+    </form>
+    <nav>
+      <ul>
+        <li><div class="dropdown">
+          <a class="dropbtn">
+            <span><img src="./img/user.png" alt="user"></span></a>
+            <div class="dropdown-content">
+              <a href="#">Profile</a>
+              <a href="#">Buka jasa rental</a>
+              <a href="#">log out</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="parent">
+    <div class="profile-container">
+      <div class="profile-pict">
+        <img src="./img/user.png" alt=""style="max-width:200px">
+      </div>
+      <h3 style="transform:translate(500px,-400px)">BIODATA DIRI</h3>
+
+
+
+      <div class="container-text-format">
+
+        <p>Nama</p>
+        <p>Tanggal Lahir</p>
+        <p>Jenis Kelamin</p>
+        <p>E-mail</p>
+        <p>Created</p>
+
+      </div>
+      <div class="container-text-fetch">
+
+        <p>Panter</p>
+        <p>10 desember 1888</p>
+        <p>Laura</p>
+        <p>fafafatur@gmail.com</p>
+        <p>10 desember 2020</p>
+
+      </div>
+      <div class="transaksi">
+        <button type="button" name="button">BUKA JASA RENTAL</button>
+        <h5 style="transform:translate(33%,0%)">TRANSAKSI YANG BERLANGSUNG</h5>
+        <table id="transaksi">
+          <tr>
+            <th>Tanggal pesan</th>
+            <th>Nama mobil</th>
+            <th>Nama Penyewa</th>
+            <th>Email Penyewa</th>
+
+          </tr>
+          <tr>
+            <td>01 Januari 2030</td>
+            <td>Dodge Challenger SRT</td>
+            <td>Sapik</td>
+            <td>fafafatur@gmail.com</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

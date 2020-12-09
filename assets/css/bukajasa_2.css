@@ -1,0 +1,81 @@
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content{
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.bayar {
+  background: white;
+  height: 350px;
+  width: 600px;
+  border-radius: 15px;
+  border: 7px solid #4CAF50;
+}
+
+  .bayar p{
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid #bdc3c7;
+  border-radius: 24px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: -10px;
+  margin-right: auto;
+  position: absolute;
+  transform: translate(250px, 0px);
+}
+
+.form-bayar input[type=submit]:hover {
+  background-color: #45a049;
+  border: 2px solid #45a049;
+  color: white;
+}
+
+.inputfile{
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 0.75em;
+    font-weight: 100;
+    display: inline-block;
+    border:0;
+    background: #4CAF50;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid #bdc3c7;
+    padding: 10px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translate(200px, 0px);
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #45a049;
+    border: 2px solid #45a049;
+    color: white;
+}
+.inputfile + label {
+	cursor: pointer;
+}

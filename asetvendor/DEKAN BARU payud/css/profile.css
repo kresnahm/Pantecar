@@ -1,0 +1,78 @@
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 80px;
+  overflow: scroll;
+}
+.profile-container{
+  width: 1080px;
+  height: 100vh;
+  position: absolute;
+  border: 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20vh;
+}
+.profile-pict{
+  margin:0;
+  position: absolute;
+  transform: translate(-130%,-130%);
+
+}
+.profile-pict img{
+  width: 300px;
+}
+.container-text{
+
+}
+.container-text-format{
+  transform: translate(250%,-262px);
+  font-size: 20px;
+}
+
+.container-text-fetch{
+  transform: translate(200%,-262px);
+  font-size: 20px;
+}
+.transaksi{
+  /* width: 1000px; */
+transform: translate(-35%,0%);
+}
+#transaksi {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#transaksi td, #transaksi th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#transaksi tr:nth-child(even){background-color: #f2f2f2;}
+
+#transaksi tr:hover {background-color: #ddd;}
+
+#transaksi th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.transaksi button{
+  background:#44bd32;
+  color:white;
+  font-weight:bolder;
+  border-radius:5px;
+  padding:10px;
+  transform:translate(152%,0);
+  border: solid #dcdde1;
+}
+.transaksi button:hover{
+  background: #4cd137;
+  cursor: pointer;
+}

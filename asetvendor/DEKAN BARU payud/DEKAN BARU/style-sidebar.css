@@ -1,0 +1,27 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+#sidebar{
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  /* left: -30%; */
+  background-color: #34495e;
+
+}
+#sidebar li{
+  color: white;
+  font-size: 25px;
+  padding: 25px;
+  border-bottom: 2px solid gray;
+  text-align: center;
+}
+#sidebar.active{
+  left: 0;
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

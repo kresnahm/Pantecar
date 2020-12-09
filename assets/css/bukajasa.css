@@ -1,0 +1,60 @@
+.isi form{
+  text-align: center;
+  margin-top: 0px;
+}
+.content{
+  padding-top: 100px;
+  max-width: 800px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.isi h2{
+  margin-top: 0px;
+  text-align: center;
+}
+
+.form_data input{
+  border-radius: 5px;
+  border: 3px solid #2ECC71;
+}
+
+.simpan{
+  background-color: #2ECC71;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #2ECC71;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  color: white;
+}
+
+.simpan input:hover{
+  background-color: #7bed9f;
+}
+.form_data input{
+  padding: 4px;
+}
+
+.form_data label{
+  font-size: 16px;
+}
+
+.isi{
+  border: 10px;
+}
+
+.pilihfile{
+  padding-left: 60px;
+}
+
+.box_form{
+  background-color: #c7ecee;
+  padding-top: 10px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}

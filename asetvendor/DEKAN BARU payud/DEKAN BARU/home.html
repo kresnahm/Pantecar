@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fiksi - Filkom Skripsi</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="styletest.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.sidebarBtn').click(function(){
+          $('.sidebar').toggleClass('active');
+          $('.sidebarBtn').toggleClass('toggle');
+          $('.main').toggleClass('active1');
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logout">
+          <input type="submit" name="Logout" value="Log out">
+          <a href="#"></a>
+        </div>
+        <nav>
+          <ul>
+            <!-- <li><a href="Home.html">Home</a></li> -->
+            <li><div class="dropdown">
+                <!-- GANTI TANDA TANYA DENGAN BRP BANYAK NOTIF YG ADA -->
+                <!-- KALO GAADA NOTIF COMMEND ATO APUS AJA CLASS BADGE -->
+                <a class="dropbtn">
+                <span class="badge">3</span>
+                <span>Inbox</span></a>
+                <div class="dropdown-content">
+                <a href="#">Notif 1</a>
+                <a href="#">Notif 2</a>
+                <a href="#">Notif 3</a>
+                </div>
+                </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  <div class="sidebar">
+  <ul>
+      <div class="img">
+        <a href="home.html">
+        <img src="./img/logo.png" alt="Fiksi" width="60px" padding="30px">
+      </a>
+      </div>
+      <div class="bdrTop">
+      <li><a class="a" href="list-surat.html">Permintaan Surat</a></li>
+      </div>
+      <!-- <li><a class="a"href="#">Isi sendiri</a></li>
+      <li><a class="a"href="#">Isi sendiri</a></li>
+      <li><a class="a"href="#">Isi sendiri</a></li>
+      <li><a class="a"href="#">Isi sendiri</a></li> -->
+  </ul>
+    <button type="button" name="button" class="sidebarBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="main">
+    <div class="content">
+      <!-- ganti yang di dalam content html dan yang bertuliskan Isi sendiri aja -->
+      <!-- selain yang di dalam div content kalo gak paham gak usah di ganti -->
+      <h1 align="center">Home</h1>
+
+</div>
+  </div>
+  </body>
+</html>
